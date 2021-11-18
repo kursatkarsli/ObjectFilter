@@ -2,7 +2,7 @@
 
 Object Filter Package
 
-#Install
+# Install
 npm i filteredobject
 
 Usage
