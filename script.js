@@ -1,3 +1,8 @@
+/**
+ * @param {Object} detailData - detailData Should be an object
+ * @param {string} key1 - The string
+ */
+
 const ObjectFilter = (detailData, key1) => {
 
     const Value = Object.entries(detailData)
@@ -20,3 +25,5 @@ const ObjectFilter = (detailData, key1) => {
 
     return convertArrayToObject(Value1)
 }
+
+export default ObjectFilter;

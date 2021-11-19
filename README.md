@@ -3,10 +3,13 @@
 Object Filter Package
 
 # Install
-npm i filteredobject
+
+npm i filter-objects
 
 # Usage
 
-Send an Object and a Key which you want to filter then you will get response of filtered object
+import objectFilter from 'filter-object'
 
+objectFilter(object, key)
 
+it will return a filtered object by key
