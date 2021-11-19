@@ -4,22 +4,21 @@ Object Filter Package
 
 # Install
 
-npm i filter-objects
+npm i filtered-object
 
 # Usage
 
-
 it will return a filtered object by key
 
+<ins>Example</ins>
+
+import objectFilter from 'filtered-object'
 
 const object = {
 name:'user',
 surname:'userSurname'
 }
 
-import objectFilter from 'filter-object'
-
 objectFilter(object, 'name');
 
 result => { surname:'userSurname'}
-
